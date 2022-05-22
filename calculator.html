@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calculator</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<script defer src="./js/calculator.js"></script>
+</head>
+<body>
+	<div class="calculator">
+		<h1>Calculator计算器</h1>
+		<div class="outcome">
+			<div class="dp" id="dp"></div>
+			<div class="res" id="res">0</div>
+		</div>
+		<div class="btnGroup">
+			<div class="row1">
+				<button data-value="clear">AC</button>
+				<button id="Del" data-value="del"> </button>
+				<button data-value="op">/</button>
+				<button data-value="op">+</button>
+			</div>
+
+			<div class="row2">
+				<button data-value="7">7</button>
+				<button data-value="8">8</button>
+				<button data-value="9">9</button>
+				<button data-value="op">-</button>
+			</div>
+
+			<div class="row3">
+				<button data-value="4">4</button>
+				<button data-value="5">5</button>
+				<button data-value="6">6</button>
+				<button data-value="op">x</button>
+			</div>
+
+			<div class="row4">
+				<button data-value="1">1</button>
+				<button data-value="2">2</button>
+				<button data-value="3">3</button>
+				<button data-value="op">%</button>
+			</div>
+
+			<div class="row5">
+				<button data-value="0">0</button>
+				<button data-value=".">.</button>
+				<button data-value="eq" style="width: 132px"> = </button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

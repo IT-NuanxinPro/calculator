@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+body{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background: #dde1e7 !important;
+}
+
+.calculator {
+	width: 355px;
+	background-color: #dde1e7;
+	padding: 40px 25px 35px 25px;
+	border-radius: 20px;
+	box-shadow: -3px -3px 7px #ffffff73,
+	2px 2px 5px rgba(94, 104, 121, 0.29);
+}
+
+h1{
+	text-align: center;
+	margin-bottom:20px ;
+	letter-spacing: 1px;
+}
+
+.outcome{
+	width: 100%;
+	height: 90px;
+	background: #dde1e7;
+	border-radius:8px;
+	box-shadow: inset -3px -3px 7px #ffffff73,
+	inset  2px 2px 5px rgba(94,104,121,0.29);
+}
+
+.outcome .dp{
+	width: 100%;
+	height: 37px;
+	background: none;
+	border: none;
+	font-size: 30px;
+	font-weight:600;
+	text-align: right;
+	padding-right: 2px;
+	overflow: hidden;
+	opacity: .5;
+}
+
+.outcome .res{
+	width: 100%;
+	height: 50px;
+	background: none;
+	border: none;
+	font-size: 46px;
+	font-weight:600;
+	text-align: right;
+	padding-right: 2px;
+	overflow: hidden;
+}
+
+.calculator .btnGroup{
+	text-align: center;
+	padding: 35px 0 0 0;
+}
+.btnGroup button{
+	width: 60px;
+	height: 60px;
+	font-size: 23px;
+	border-radius: 5px;
+	background: #dde1e7;
+	margin: 5px;
+	border: none;
+	outline: none;
+	color: #595959;
+	box-shadow: -3px -3px 7px #ffffff73,
+	2px 2px 5px rgba(94,104,121,0.29);
+	cursor: pointer;
+}
+
+.btnGroup button:active{
+	/* color: #e31818; */
+	color: #a76283;
+	/*background-image: linear-gradient(to bottom right,skyblue,lightpink,mediumpurple);*/
+	transform: scale(1.1);
+	box-shadow: inset -3px -3px 7px #ffffff73,
+	inset  2px 2px 5px rgba(94,104,121,0.29);
+}
+
+
